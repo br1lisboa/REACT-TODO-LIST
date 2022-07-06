@@ -1,6 +1,6 @@
 import './App.css';
 import LogoFcc from './components/LogoFcc';
-import Tarea from './components/Tarea';
+import TareaFormulario from './components/TareaFormulario';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       
       <div className='container-tarealista-principal'>
         <h1>Mis Tareas</h1>
-        <Tarea texto='Aprender React' />
+        <TareaFormulario />
       </div>
     
     </div>
