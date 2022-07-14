@@ -1,6 +1,9 @@
 import './App.css';
+import ListaDeTareas from './components/ListaDeTareas';
 import LogoFcc from './components/LogoFcc';
-import TareaFormulario from './components/TareaFormulario';
+
+
+/* MINUTO 6:30 */
 
 function App() {
   return (
@@ -12,7 +15,7 @@ function App() {
       
       <div className='container-tarealista-principal'>
         <h1>Mis Tareas</h1>
-        <TareaFormulario />
+        <ListaDeTareas />
       </div>
     
     </div>
